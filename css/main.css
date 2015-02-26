@@ -421,6 +421,20 @@ a.prev, a.next {
 	border-bottom-left-radius: 5px;
 }
 
+/* BANNER */
+
+.banners-section {
+	border-top: 2px solid #dbdbdb;
+	height: 239px;
+	border-bottom: 2px solid #dbdbdb;
+}
+
+.banner {
+	width: 1170px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
 .banners-section, .info-section, .footer-top, .footer-bottom {
 	clear: both;
 }
