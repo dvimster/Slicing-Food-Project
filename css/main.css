@@ -215,4 +215,107 @@ img {
 .steps {
 	text-align: center;
 	margin-top: 65px;
+	margin-bottom: 71px;
+}
+
+/* SPECIAL OFFERS SEVTION */
+
+.special-offers {
+	background: #f1f1f1;
+	height: 467px;
+}
+
+.special-offers-content {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.special-heading {
+	color: #515151; /* text color */
+	font-family: "Lobster Two";
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 56px;
+}
+
+.offers-slider{
+	margin-top: 43px;
+}
+
+.slider-item {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #fff; /* layer fill content */
+	-moz-box-shadow: 0 0 9px rgba(0,0,0,.05); /* drop shadow */
+	-webkit-box-shadow: 0 0 9px rgba(0,0,0,.05); /* drop shadow */
+	box-shadow: 0 0 9px rgba(0,0,0,.05); /* drop shadow */
+	height: 201px;
+	width: 370px;
+	float: left;
+}
+
+.slider-item:nth-child(2n) {
+	margin-left: 29px;
+	margin-right: 29px;
+}
+
+.slider-item img {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* border radius */
+	margin: 21px 21px 21px 21px;
+	float: left;
+}
+
+.slider-item .slider-item-heading {
+	color: #5bbd4f; /* text color */
+	font-family: "SourceSansPro", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 29px;
+	margin-bottom: 13px;
+}
+
+.slider-item .slider-item-description {
+	color: #8e8e8e; /* text color */
+	font-family: "SourceSansPro", sans-serif;
+	font-size: 15px;
+	margin-bottom: 17px;
+}
+
+.slider-item .slider-button {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #e14325; /* layer fill content */
+	border: none;
+	height: 28px;
+	width: 86px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "SourceSansPro", sans-serif;
+	font-size: 14px;
+	padding-top: 8px;
+}
+
+.slider-buttons {
+	text-align: center;
+	clear: both;
+	padding-top: 41px;
+}
+
+a.prev {
+	margin-right: 46px;
+}
+
+a.prev, a.next {
+	text-decoration: none;
 }
