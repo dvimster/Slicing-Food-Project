@@ -435,6 +435,44 @@ a.prev, a.next {
 	margin-top: 48px;
 }
 
+/* INFO SECTION */
+
+.info-section {
+	margin-bottom: 61px;
+}
+
+.info-section-content {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.info-item {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.info-item img {
+	float: left;
+	margin-right: 32px;
+}
+
+.info-item-heading {
+	color: #5bbd4f; /* text color */
+	font-family: "Lobster Two";
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 8px;
+}
+
+.info-item-description {
+	color: #8e8e8e; /* text color */
+	font-family: "SourceSansPro", sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	margin-right: 28px;
+}
+
 .banners-section, .info-section, .footer-top, .footer-bottom {
 	clear: both;
 }
