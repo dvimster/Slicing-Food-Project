@@ -319,3 +319,108 @@ a.prev {
 a.prev, a.next {
 	text-decoration: none;
 }
+
+/* TOPS SECTION */
+
+.tops-section-content {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.top-restaurants {
+	float: left;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-o-column-count: 2;
+	column-count: 2;
+}
+
+.top-restaurants-heading {
+	color: #515151; /* text color */
+	font-family: "Lobster Two";
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 54px;
+	margin-bottom: 51px;
+}
+
+.restaurant {
+	border: 5px solid #f1f1f1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* border radius */
+	-moz-box-shadow: inset 0 0 6px #fff; /* inner glow */
+	-webkit-box-shadow: inset 0 0 6px #fff; /* inner glow */
+	box-shadow: inset 0 0 6px #fff; /* inner glow */
+	width: 171px;
+	height: 111px;
+	text-align: center;
+	margin-right: 15px;
+	margin-bottom: 29px;
+}
+
+.fix {
+	display: block;
+	height: 134px;
+}
+
+.restaurant img {
+	margin-top: 14px;
+}
+
+.top-cuisines-heading {
+	color: #515151; /* text color */
+	font-family: "Lobster Two";
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 54px;
+	margin-bottom: 51px;
+}
+
+.cuisine {
+	width: 167px;
+	height: 136px;
+	float: left;
+	border: 1px solid #f1f1f1;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-box-shadow: inset 0 0 6px #fff; /* inner glow */
+	-webkit-box-shadow: inset 0 0 6px #fff; /* inner glow */
+	box-shadow: inset 0 0 6px #fff; /* inner glow */
+	margin-right: 21px;
+	margin-bottom: 56px;
+	display: inline-block;
+	text-align: center;
+}
+
+.cuisine a {
+	text-decoration: none;
+}
+
+.cuisine-name {
+	background: #f1f1f1;
+	color: #515151; /* text color */
+	font-family: "SourceSansPro", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	width: 166px;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 11px;
+	border: 1px solid #dbdbdb;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.banners-section, .info-section, .footer-top, .footer-bottom {
+	clear: both;
+}
