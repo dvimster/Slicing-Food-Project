@@ -189,3 +189,30 @@ img {
 	vertical-align: -4.5px;
 	outline: none;
 }
+
+/* ORDERING SECTION */
+.ordering-content {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.ordering-heading {
+	color: #515151; /* text color */
+	font-family: "Lobster Two";
+	font-size: 36px;
+	text-align: center;
+	margin-top: 48px;
+}
+
+.ordering-subheading {
+	color: #e14325; /* text color */
+	font-family: "SourceSansPro", sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 19px;
+}
+
+.steps {
+	text-align: center;
+	margin-top: 65px;
+}
